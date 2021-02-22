@@ -3,7 +3,7 @@
 
 ### v0.1
 第一次接触beego，用的redis数据库，写的不是很通用，不过大体框架搭起来了。
-* router,这里一般是定义url得匹配规则，然后将对应得pose或者get请求连接到一个结构体，改结构体包含了get或者pose得处理。 
+* router,这里一般是定义url得匹配规则，然后将对应得pose或者get请求连接到一个结构体，该结构体包含了get或者pose得处理。 
 ``` 
 beego.Router("/edit/:id", &controllers.EditController{})   
 ```
