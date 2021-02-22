@@ -2,7 +2,6 @@ package models
 
 import (
 	"fmt"
-	"time"
 
 	"github.com/astaxie/beego/orm"
 	"github.com/go-redis/redis"
@@ -14,7 +13,7 @@ type Blog struct {
 	Id      int `pk`
 	Title   string
 	Content string
-	Created time.Time
+	Created string
 }
 
 func init() {
