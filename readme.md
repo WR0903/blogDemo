@@ -91,7 +91,7 @@ if err != nil {
 ![image](https://github.com/WR0903/blogDemo/blob/main/login.png)     
 4、编辑界面：   
 ![image](https://github.com/WR0903/blogDemo/blob/main/edit.png)   
-5、查看界面：
+5、查看界面：  
 ![image](https://github.com/WR0903/blogDemo/blob/main/view.png) 
 
 当然周末业余时间学习开发，里面会有一些bug，慢慢修复。
