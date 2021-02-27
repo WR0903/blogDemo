@@ -84,14 +84,14 @@ if err != nil {
 在0.2的基础上添加了一个比较好看的前端html渲染，同时增加了用户注册和登录逻辑，另外文章内容添加了markdown格式的支持。   
 效果如下：  
 1、主界面：     
-![](home.png)   
+![image](https://github.com/WR0903/blogDemo/blob/main/home.png)   
 2、注册界面：   
-![](register.png)   
+![image](https://github.com/WR0903/blogDemo/blob/main/register.png)   
 3、登录界面：   
-![](login.png)  
+![image](https://github.com/WR0903/blogDemo/blob/main/login.png)     
 4、编辑界面：   
 ![image](https://github.com/WR0903/blogDemo/blob/main/edit.png)   
 5、查看界面：
-![](view.png) 
+![image](https://github.com/WR0903/blogDemo/blob/main/view.png) 
 
 当然周末业余时间学习开发，里面会有一些bug，慢慢修复。
