@@ -90,7 +90,7 @@ if err != nil {
 3、登录界面：   
 ![](login.png)  
 4、编辑界面：   
-![](edit.png)   
+![image](https://github.com/WR0903/blogDemo/blob/main/edit.png)   
 5、查看界面：
 ![](view.png) 
 
