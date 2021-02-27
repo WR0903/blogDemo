@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="../static/css/blogsheet.css" rel="stylesheet">
+</head>
+<body>
+{{template "block/layout.html" .}}
+<ul>
+    <li></li>  
+    <li></li>  
+    <li></li>
+</ul>
+<table border="1" style="margin:0 auto;" cellspacing="10">
+    <COL><COL WIDTH=500><COL WIDTH=300>
+    <tr>
+        <th>标题</th>
+        <th>简介</th>
+        <th>创建时间</th>
+        <th>编辑</th>
+        <th>删除</th>
+    </tr>
+    {{range .blogs}}
+    <tr>
+        <td><a href="/view/{{.Id}}">{{.Title}}</a></td>
+        <td>{{.Short}}</td>
+        <td>from {{.Created}}</td>
+        <td><a href="/edit/{{.Id}}">Edit</a></td>
+            <td><a href="/delete/{{.Id}}">Delete</a></td>
+    </tr>
+    {{end}}
+</table>
+</body>
+</html>
